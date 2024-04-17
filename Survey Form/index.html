@@ -14,14 +14,14 @@
       action="https://register-demo.freecodecamp.org"
     >
       <fieldset>
-        <label for="name" id="name-lable"
+        <label for="name" id="name-label"
           >Name
           <input
             type="text"
             name="name"
             required
             id="name"
-            placeholder="name"
+            placeholder="Tom"
           />
         </label>
         <label for="email" id="email-label"
@@ -31,7 +31,7 @@
             name="email"
             required
             id="email"
-            placeholder="email"
+            placeholder="tom@gmail.com"
           />
         </label>
       
@@ -46,8 +46,38 @@
             placeholder="20"
           />
         </label>
+        <label>What's your favorite fruit?
+        <select id="dropdown">
+          <option>Select one</option>
+          <option>apples</option>
+          <option>oranges</option>
+          <option>mangos</option>
+        </select>
+        </label>
+        <label>which option do you like best? </label>
+        <label>option1
+          <input type="radio" name="option" value="1" class="inline" /></label>
+          <label>option2
+          <input type="radio" name="option" value ="2" class="inline" /></label>
+          <label>option3
+          <input value="3" type="radio" class="inline" name="option" /></label>
+          <label>option4
+          <input type="radio" class="inline" name="option" value="4" /></label>
+          <h3>Checklist</h3>
+          <label>option1
+          <input type="checkbox" value="type1" class="inline"  /></label>
+          <label>option2
+          <input type="checkbox" value="type2" class="inline" /></label>
+          <label>option3
+          <input type="checkbox" value="type3" class="inline" /></label>
+          <label>option4
+          <input type="checkbox" value="type4" class="inline" /></label>
+          <label>option5
+          <input type="checkbox" value="type5" class="inline" /></label>
+          <h4>Comment on this form</h4>
+          <textarea></textarea>
 	</fieldset>
-      <button type="submit"></button>
+      <button type="submit" id="submit">Submit</button>
     </form>
   </body>
 </html>
