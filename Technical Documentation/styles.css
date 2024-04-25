@@ -1,0 +1,5 @@
+@media(min-width: 670px){
+  nav{
+    display: none;
+  }
+}
