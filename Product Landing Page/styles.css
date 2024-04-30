@@ -1,0 +1,26 @@
+header{
+  display: flex;
+  justify-content: space-between;
+}
+#nav-bar {
+
+  position: fixed;
+
+  top: 0;
+
+  right: 0;
+
+  width: 50%;
+
+  background-color: #fff; /* optional */
+
+  z-index: 1000; /* optional */
+
+}
+@media (max-width: 550px){
+  form{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}
