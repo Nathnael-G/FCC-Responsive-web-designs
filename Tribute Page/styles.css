@@ -3,6 +3,20 @@
   height: auto;
 }
 img{
-  margin: auto;
+  margin: 10px auto;
   display: block;
+}
+*{
+  font-family: Helvetica, sans-serif;
+  background-color: #1b1b32;
+  color: #f5f6f7;  
+  text-align: center;
+  max-width: 720px;
+  margin: auto;
+}
+.bold{
+  font-weight: bold
+}
+a:hover{
+  color: green;
 }
