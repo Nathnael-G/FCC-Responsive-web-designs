@@ -7,3 +7,5 @@ Rothko Paintings, were created by, Mark Rothko, Markus Yakovlevich Rothkowitz un
 This folder contains an html file with it's corresponding css styles to create one rothko Painting and developing  skills on the Box Model.
 
 You can see the complete design below.
+
+![image](https://github.com/Nathnael-G/FCC-Responsive-web-designs/assets/120024349/bb2955e0-c07a-4b4b-8d73-c41291933e09)
